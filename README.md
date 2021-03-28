@@ -23,14 +23,13 @@ Should you still be on version 5.4 of Laravel, the final steps for you are to ad
 
 Add a new line to the providers array:
 
-<code>Gloudemans\Shoppingcart\ShoppingcartServiceProvider::class</code>
-And optionally add a new line to the aliases array:
+<code>Gloudemans\Shoppingcart\ShoppingcartServiceProvider::class</code> <br />
 
-And optionally add a new line to the aliases array:
+And optionally add a new line to the aliases array: <br />
 
-<code>'Cart' => Gloudemans\Shoppingcart\Facades\Cart::class,</code>
+<code>'Cart' => Gloudemans\Shoppingcart\Facades\Cart::class,</code> <br />
 
-Now you're ready to start using the shoppingcart in your application.
+Now you're ready to start using the shoppingcart in your application. <br />
 
 **As of version 2 of this package it's possibly to use dependency injection to inject an instance of the Cart class into your controller or other class**
 
