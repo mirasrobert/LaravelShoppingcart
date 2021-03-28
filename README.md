@@ -26,6 +26,8 @@ Add a new line to the providers array:
 <code>Gloudemans\Shoppingcart\ShoppingcartServiceProvider::class</code>
 And optionally add a new line to the aliases array:
 
+And optionally add a new line to the aliases array:
+
 <code>'Cart' => Gloudemans\Shoppingcart\Facades\Cart::class,</code>
 
 Now you're ready to start using the shoppingcart in your application.
