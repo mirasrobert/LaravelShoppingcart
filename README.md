@@ -15,7 +15,7 @@ Install the [package](https://packagist.org/packages/bumbummen99/shoppingcart) t
 
 Run the Composer require command from the Terminal:
 
-    composer require mirasrobert/shoppingcart
+    composer require bumbummen99/shoppingcart
 
 Now you're ready to start using the shoppingcart in your application.
 
